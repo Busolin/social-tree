@@ -1,0 +1,65 @@
+:root {
+  --body-bg-color: #faf7fd;
+  --purple: #bb99dd;
+}
+
+body,
+ul {
+  margin: 0;
+  padding: 0;
+  background-color: var(--body-bg-color);
+  font-family: "Poppins";
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 15vh;
+  width: 415px;
+}
+
+.elippse img {
+  height: 213px;
+  width: 213px;
+  border-radius: 100%;
+  box-shadow: 0 0 0 4px var(--body-bg-color), 0 0 0 6px var(--purple);
+}
+
+p {
+  color: var(--purple);
+  margin: 20px 0 30px 0;
+}
+.linksList {
+  list-style: none;
+  margin-bottom: 60px;
+}
+
+.linksList li {
+  margin-bottom: 10px;
+  border: 2px solid var(--purple);
+  text-align: center;
+  border-radius: 4px;
+  width: 300px;
+  text-transform: uppercase;
+  font-weight: 600;
+  box-sizing: border-box;
+}
+
+.linksList a {
+  text-decoration: none;
+  color: var(--purple);
+  display: inline-block;
+  padding: 6px 123px;
+}
+
+.iconsList {
+  display: flex;
+  list-style: none;
+  gap: 29px;
+}
+
+.iconsList img {
+  cursor: pointer;
+}
