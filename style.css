@@ -37,21 +37,26 @@ p {
 }
 
 .linksList li {
-  margin-bottom: 10px;
-  border: 2px solid var(--purple);
   text-align: center;
-  border-radius: 4px;
-  width: 300px;
   text-transform: uppercase;
   font-weight: 600;
-  box-sizing: border-box;
 }
 
 .linksList a {
   text-decoration: none;
   color: var(--purple);
   display: inline-block;
-  padding: 6px 123px;
+  border: 2px solid var(--purple);
+  width: 300px;
+  border-radius: 4px;
+  padding: 5px 0;
+  margin-bottom: 10px;
+}
+
+.linksList a:hover {
+  color: var(--body-bg-color);
+  background-color: var(--purple);
+  transition: 0.1s ease-in-out;
 }
 
 .iconsList {
